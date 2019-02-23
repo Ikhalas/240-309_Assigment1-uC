@@ -19,6 +19,7 @@
   <FILE>F:\AVR-Project\Assignment\Assignment.map</FILE>
  </OUTPUT_FILES>
  <LABELS>
-  <MAIN><FILE>F:\AVR-Project\Assignment\Assignment.asm</FILE><LINE>29</LINE></MAIN>
+  <MAIN><FILE>F:\AVR-Project\Assignment\Assignment.asm</FILE><LINE>31</LINE></MAIN>
+  <HAN><FILE>F:\AVR-Project\Assignment\Assignment.asm</FILE><LINE>65</LINE></HAN>
  </LABELS>
 </ASSEMBLER_INFO>

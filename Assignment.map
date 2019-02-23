@@ -1,5 +1,5 @@
 
-AVRASM ver. 2.1.42  F:\AVR-Project\Assignment\Assignment.asm Sun Feb 24 00:53:21 2019
+AVRASM ver. 2.1.42  F:\AVR-Project\Assignment\Assignment.asm Sun Feb 24 03:43:23 2019
 
 
 EQU  SIGNATURE_000 0000001e
@@ -698,4 +698,7 @@ DEF  TMP          r18
 DEF  TMP_2        r20
 DEF  VAR_X        r21
 DEF  VAR_Y        r22
+DEF  select       r23
+DEF  test         r24
 CSEG MAIN         00000008
+CSEG HAN          00000008
