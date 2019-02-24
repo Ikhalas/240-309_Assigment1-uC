@@ -20,6 +20,7 @@
  </OUTPUT_FILES>
  <LABELS>
   <MAIN><FILE>F:\AVR-Project\Assignment\Assignment.asm</FILE><LINE>31</LINE></MAIN>
-  <HAN><FILE>F:\AVR-Project\Assignment\Assignment.asm</FILE><LINE>65</LINE></HAN>
+  <KOON><FILE>F:\AVR-Project\Assignment\Assignment.asm</FILE><LINE>43</LINE></KOON>
+  <HAN><FILE>F:\AVR-Project\Assignment\Assignment.asm</FILE><LINE>64</LINE></HAN>
  </LABELS>
 </ASSEMBLER_INFO>

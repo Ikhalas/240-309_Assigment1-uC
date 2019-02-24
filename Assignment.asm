@@ -29,12 +29,13 @@
 
 
 MAIN:
-	ldi  select,0x01       ;   0=HAN  , 1= KOON   yang rab ka mai dai  WTF!! 
-	;in   select,PIND
-	;andi select,0x80
-	;lsl   select
-	;rol   select
-
+	;ldi  select,0x01       ;   0=HAN  , 1= KOON   yang rab ka mai dai  WTF!! 
+	in   select,PIND
+	lsl  select
+	lsl  select	
+	rol  select
+	andi select,0x01
+	
 	cpi  select,0x00
 	breq KOON
 	rjmp HAN
@@ -64,7 +65,6 @@ HAN:
 	in   VAR_X,PINC       ;read switch from PORTC
 	andi VAR_X,0x0f
 
-	
 	lsr VAR_X
 	mov TMP,VAR_X
 	out PORTB,TMP
