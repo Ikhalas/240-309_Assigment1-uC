@@ -22,5 +22,11 @@
   <MAIN><FILE>F:\AVR-Project\Assignment\Assignment.asm</FILE><LINE>31</LINE></MAIN>
   <KOON><FILE>F:\AVR-Project\Assignment\Assignment.asm</FILE><LINE>43</LINE></KOON>
   <HAN><FILE>F:\AVR-Project\Assignment\Assignment.asm</FILE><LINE>64</LINE></HAN>
+  <ONETIME><FILE>F:\AVR-Project\Assignment\Assignment.asm</FILE><LINE>77</LINE></ONETIME>
+  <CHECK><FILE>F:\AVR-Project\Assignment\Assignment.asm</FILE><LINE>81</LINE></CHECK>
+  <RESULT><FILE>F:\AVR-Project\Assignment\Assignment.asm</FILE><LINE>102</LINE></RESULT>
+  <TWOTIME><FILE>F:\AVR-Project\Assignment\Assignment.asm</FILE><LINE>86</LINE></TWOTIME>
+  <CHECK2><FILE>F:\AVR-Project\Assignment\Assignment.asm</FILE><LINE>91</LINE></CHECK2>
+  <THREETIME><FILE>F:\AVR-Project\Assignment\Assignment.asm</FILE><LINE>96</LINE></THREETIME>
  </LABELS>
 </ASSEMBLER_INFO>

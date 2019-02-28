@@ -65,9 +65,43 @@ HAN:
 	in   VAR_X,PINC       ;read switch from PORTC
 	andi VAR_X,0x0f
 
-	lsr VAR_X
-	mov TMP,VAR_X
-	out PORTB,TMP
+	in   VAR_Y,PIND       ;read switch from PORTD
+	lsr  VAR_Y
+ 	lsr  VAR_Y
+	andi VAR_Y,0x0f
+
+	cpi  VAR_Y,0x01
+	breq ONETIME
+	rjmp CHECK
+
+ONETIME:
+	lsr  VAR_X            ;Divided by 2
+	rjmp RESULT
+
+CHECK:
+	cpi  VAR_Y,0x02
+	breq TWOTIME
+	rjmp CHECK2
+
+TWOTIME:
+	lsr  VAR_X			  ;Divided by 4	
+	lsr  VAR_X
+	rjmp RESULT
+
+CHECK2:
+	cpi  VAR_Y,0x03
+	breq THREETIME
+	rjmp RESULT
+
+THREETIME:
+	lsr  VAR_X			  ;Divided by 8	
+	lsr  VAR_X
+	lsr  VAR_X
+	rjmp RESULT
+	
+RESULT:	
+	mov  TMP,VAR_X
+	out  PORTB,TMP
 
 	rjmp MAIN 
 	

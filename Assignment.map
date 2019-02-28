@@ -1,5 +1,5 @@
 
-AVRASM ver. 2.1.42  F:\AVR-Project\Assignment\Assignment.asm Sun Feb 24 14:48:44 2019
+AVRASM ver. 2.1.42  F:\AVR-Project\Assignment\Assignment.asm Thu Feb 28 17:04:23 2019
 
 
 EQU  SIGNATURE_000 0000001e
@@ -703,3 +703,9 @@ DEF  test         r24
 CSEG MAIN         00000008
 CSEG KOON         00000010
 CSEG HAN          0000001e
+CSEG ONETIME      00000027
+CSEG CHECK        00000029
+CSEG RESULT       00000036
+CSEG TWOTIME      0000002c
+CSEG CHECK2       0000002f
+CSEG THREETIME    00000032
